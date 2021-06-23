@@ -57,10 +57,102 @@ import math
 
 
 
-a = int(input('a = '))
-b = int(input('b = '))
-c = int(input('c = '))
+# a = int(input('a = '))
+# b = int(input('b = '))
+# c = int(input('c = '))
 
-x = max(a,b,c)
+# x = max(a,b,c)
 
-print("\n" ,x)
+# print("\n" ,x)
+
+
+
+
+# teng bo'lish qiymati
+# a = int(input('a = '))
+# b = int(input('b = '))
+# c = int(input('c = '))
+
+# if (a==b!=c) is True:
+#     print("2")
+# elif (a!=b==c) is True: 
+#     print("2")
+# elif (a!=c==b) is True: 
+#     print("2")
+# if (a==b==c):
+#     print("3")
+# if (a!=b!=c) is True:
+#     print("0")
+
+
+
+
+
+# 5 ta sonning eng kattasi
+# a = int(input('a = '))
+# b = int(input('b = '))
+# c = int(input('c = '))
+# d = int(input('d = '))
+# e = int(input('e = '))
+
+# x = max(a,b,c,d,e)
+# print(x)
+
+
+
+
+# a = int(input('Oy tartib raqamini kiriting: '))
+# if (a==1):
+#     print("Yanvarda 31 kun bor")
+# elif (a==2):
+#     print("Fevralda 28 kun bor")
+# elif (a==3):
+#     print("Martda 31 kun bor")
+# elif (a==4):
+#     print("Aprel 30 kun bor")
+# elif (a==5):
+#     print("Mayda 31 kun bor")
+# elif (a==6):
+#     print("Iyunda 30 kun bor")
+# elif (a==7):
+#     print("Iyulda 31 kun bor")
+# elif (a==8):
+#     print("Avgustda 31 kun bor")
+# elif (a==9):
+#     print("Sentabrda 30 kun bor")
+# elif (a==10):
+#     print("Oktabrda 31 kun bor")
+# elif (a==11):
+#     print("Noyabrda 30 kun bor")
+# elif (a==12):
+#     print("Dekabrda 31 kun bor")
+# if (a>12):
+#     print("Tanlangan son oy tartib raqamida mavjud emas")
+    
+# if (a<0):
+#     print("Tanlangan son oy tartib raqamida mavjud emas")
+
+
+
+
+
+
+
+
+
+
+a = int(input("Ma'lumbir oyning tartib raqamini kiriting: "))
+b = int(input(f"{a}ning sanasini kiriting: "))
+# taqriban
+x = 365-(a*30+b)
+
+if (a>12):
+    print("Tanlangan son oy tartib raqamida mavjud emas")
+  
+if (a<0):
+    print("Tanlangan son oy tartib raqamida mavjud emas")
+if x > 0:
+    print("Yangi yilgacha hali " ,x ,"kun bor")
+else:
+    print("Kiritilgan sana kutilganidan katta, qayta urinib ko'ring")
+
