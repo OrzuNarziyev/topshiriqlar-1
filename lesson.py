@@ -141,18 +141,82 @@ import math
 
 
 
-a = int(input("Ma'lumbir oyning tartib raqamini kiriting: "))
-b = int(input(f"{a}ning sanasini kiriting: "))
-# taqriban
-x = 365-(a*30+b)
+# a = int(input("Ma'lumbir oyning tartib raqamini kiriting: "))
+# b = int(input(f"{a}ning sanasini kiriting: "))
+# # taqriban
+# x = 365-(a*30+b)
 
-if (a>12):
-    print("Tanlangan son oy tartib raqamida mavjud emas")
+# if (a>12):
+#     print("Tanlangan son oy tartib raqamida mavjud emas")
   
-if (a<0):
-    print("Tanlangan son oy tartib raqamida mavjud emas")
-if x > 0:
-    print("Yangi yilgacha hali " ,x ,"kun bor")
-else:
-    print("Kiritilgan sana kutilganidan katta, qayta urinib ko'ring")
+# if (a<0):
+#     print("Tanlangan son oy tartib raqamida mavjud emas")
+# if x > 0:
+#     print("Yangi yilgacha hali " ,x ,"kun bor")
+# else:
+#     print("Kiritilgan sana kutilganidan katta, qayta urinib ko'ring")
 
+
+
+
+
+
+
+# a = int(input("Oy tartib raqamini kiriting: "))
+
+# if (0 < a <= 2) or (a == 12):
+#     print("QISH FASLI")
+# elif (3 <= a <= 5):
+#     print("BAHOR FASLI")
+# elif (6 <= a <= 8):
+#     print("YOZ FASLI")
+# elif (9 <= a <= 11):
+#     print("KUZ FASLI")
+# if (a < 0) or (a > 12):
+#    print("Tartib raqami 12 dan katta yoki manfiy son bo'lishi mumkin emas.")
+
+
+
+
+
+
+
+
+
+# import time
+# print("Yoshingiz korxona talablariga to'g'ri kelishi uchun yoshingiz tasdiqlang")
+# time.sleep(2)
+# nom = int(input("Yoshingizni tasdiqlangan: "))
+# print(f"\t{nom} yosh")
+# time.sleep(1)
+# if (nom <= 25) or (nom >= 40):
+#     print("Tasdiqlanmadi!")
+# else:
+#     print("Tasdiqlandi")
+
+
+
+
+
+
+
+
+
+
+
+# yosh = int(input("\tYosh kiriting: "))
+
+# if (0 <= yosh <= 5):
+#     print("\tChaqaloq")
+# elif(6 <= yosh <= 12):
+#     print("\tBola")
+# elif(13 <= yosh <= 19):
+#     print("\tO'spirin")
+# elif(20 <= yosh <= 50):
+#     print("\tYoshroq")
+# elif(50 <= yosh <= 100):
+#     print("\tKeksa")
+# elif(yosh >= 100):
+#     print("\tAsr odami")
+# if(yosh < 0):
+#     print("\tManfiy son qabul qilinmaydi!")
