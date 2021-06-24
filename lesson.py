@@ -220,3 +220,31 @@ import math
 #     print("\tAsr odami")
 # if(yosh < 0):
 #     print("\tManfiy son qabul qilinmaydi!")
+
+
+
+
+
+
+# import time
+# a = int(input("Dastlabki soat milini kiriting: "))
+# b = int(input("Dastlabki daqiqani kiriting: "))
+
+# if True:
+#     time.sleep(1)
+#     print("Dastlabki soat: " , a,":",b )
+# a1 = int(input("O'tgan soat miqdorini kiriting: "))
+# b1 = int(input("O'tgan minut miqdorini kiriting: "))
+
+# if int(a+a1<=24):
+#     time.sleep(1)
+#     print("Hozirda soat: " , a+a1)
+# if int(a+a1>=24):
+#     print("Hozirda soat: " , (a + a1) - 24)
+
+# if int(b+b1<=60):
+#     time.sleep(1)
+#     print("Hozirda soat: " , a+a1 , ":" ,b+b1)
+# if int(b+b1>=60):
+#     print("Hozirda soat: " , (a + a1) - 24 , ":" , b1+b-60)
+
